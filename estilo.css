@@ -174,7 +174,7 @@ footer{
 
 /*Fim rodape*/
 
-@media screen and (max-width: 480px) { /**************Tamanho menor*/
+@media screen and (max-width: 510px) { /**************Tamanho menor*/
 
 header{
 	/*border: 1px solid red;*/
@@ -337,7 +337,7 @@ footer{
 }
 }
 
-@media screen  and (min-width: 481px) and (max-width: 1210px){ /**************Tamanho menor*/
+@media screen  and (min-width: 511px) and (max-width: 1210px){ /**************Tamanho menor*/
 
 	header{
 		/*border: 1px solid red;*/
