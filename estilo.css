@@ -415,7 +415,7 @@ footer{
 	
 	/*PRINCIPAL*/
 	#principal{
-		border: 1px solid red;
+		/*border: 1px solid red;*/
 		margin: 0px;
 		padding: 5px;
 		width: 55%;
@@ -424,8 +424,8 @@ footer{
 	}
 	
 	.conteudos1{
-		/*background-color: #F3F7F8;*/
-		border: 1px solid blue;
+		background-color: #F3F7F8;
+	    /*border: 1px solid blue;*/
 		border-radius: 10px;
 		padding: 0;/*10px;*/
 		width: 100%;/*400px;*/
@@ -441,7 +441,7 @@ footer{
 	}
 	
 	.sobre{
-		border: solid 1px red;
+		/*border: solid 1px red;*/
 		background-color: #F3F7F8;
 		border-radius: 0 0 15px 15px;
 		display: block;
@@ -486,7 +486,7 @@ footer{
 	
 	/*Conteudo lateral*/
 	#lateral{
-		border: 1px solid blue;
+		/*border: 1px solid blue;*/
 		background-color: #f3f7f8;
 		border-radius: 15px;
 		color: black;
