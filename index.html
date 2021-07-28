@@ -5,24 +5,41 @@
 	<meta charset="utf-8">
 	<title>AgroGeo</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="estilo.css"> 
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	
 </head>
 
 <body>
 		<header> <!--Inicio do Menu-->
-			<!--<img src="imagens/log2.png">--> 
-			<img src="imagens/logo2.jpg">
-			<div id="menu">
-				<!--<img src="imagens/logo2.jpg"> -->
+			<nav class="navbar  navbar-expand-sm navbar-dark bg-dark">
 
-				<nav>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="#">Sobre</a></li>
-						<li><a href="#">Contato</a></li>
+				<!-- Logo -->
+				<a href="" class="navbar-brand"><img src="imagens/log1.png"></a>
+		
+				<!-- Menu Hamburguer -->
+				<button class="navbar-toggler" data-toggle="collapse" 
+				data-target="#navegacao">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+		
+				<!-- navegacao -->
+				<div class="collapse navbar-collapse" id="navegacao">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a href="" class="nav-link">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="nav-link">Sobre</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="nav-link">Contato</a>
+						</li>
 					</ul>
-				</nav>
-			</div>
+				</div>
+			</nav>
 		</header> <!--Fim do Menu-->
 
 		<main>
@@ -79,10 +96,16 @@
 
 		<footer>
 			<address>
-				  <p>&copy RODAPÉ </p>
+				  <p>&copy 2021 - Programador José Natal</p>
 			</address>
 		</footer> 
 
+
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
 
 </body>
 
